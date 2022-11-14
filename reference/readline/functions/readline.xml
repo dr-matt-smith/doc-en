@@ -58,7 +58,7 @@ for ($i=0; $i < 3; $i++) {
 }
 
 //dump history
-print_r(readline_list_history());
+print_r(readline_read_history());
 
 //dump variables
 print_r(readline_info());
